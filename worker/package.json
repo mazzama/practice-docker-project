@@ -1,16 +1,10 @@
 {
-  "name": "practice-docker-node",
-  "version": "1.0.0",
-  "description": "Docker",
-  "main": "index.js",
+  "dependencies": {
+    "nodemon": "1.18.3",
+    "redis": "2.8.0"
+  },
   "scripts": {
     "start": "node index.js",
-    "dev" : "nodemon"
-  },
-  "author": "Azzam",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^1.18.9",
-    "redis": "^2.8.0"
+    "dev": "nodemon"
   }
 }
